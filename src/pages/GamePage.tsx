@@ -2,7 +2,7 @@ import { GameBoard } from '@/components/GameBoard'
 
 export const GamePage = () => {
   return (
-    <div className=" h-screen w-screen">
+    <div className="flex h-screen w-screen items-center justify-center">
       <GameBoard />
     </div>
   )
