@@ -1,4 +1,4 @@
-import { playerProperties } from '@/components/Player'
+import { playerProperties } from '@/components/Player';
 
 export type YPosition =
-  (typeof playerProperties.yPosition)[keyof typeof playerProperties.yPosition]
+  (typeof playerProperties.yPosition)[keyof typeof playerProperties.yPosition];

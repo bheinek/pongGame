@@ -1,8 +1,6 @@
-/* eslint-disable tailwindcss/classnames-order */
-/* eslint-disable tailwindcss/no-custom-classname */
-import { GAME_BOARD_HEIGHT, GAME_BOARD_WIDTH } from '@/constants/measures'
+import { GAME_BOARD_HEIGHT, GAME_BOARD_WIDTH } from '@/constants/measures';
 
-import { Player, playerProperties } from './Player'
+import { Player, playerProperties } from './Player';
 
 export const GameBoard = () => {
   return (
@@ -12,5 +10,5 @@ export const GameBoard = () => {
       <Player yPosition={playerProperties.yPosition.top} />
       <Player yPosition={playerProperties.yPosition.bottom} />
     </div>
-  )
-}
+  );
+};
